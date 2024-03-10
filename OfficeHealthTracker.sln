@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OfficeHealthTracker.Application", "src\OfficeHealthTracker.Application\OfficeHealthTracker.Application.csproj", "{603A691A-792F-415D-9748-87C69EA21C9B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OfficeHealthTracker.Domain", "src\OfficeHealthTracker.Domain\OfficeHealthTracker.Domain.csproj", "{5681FEE9-733C-4F8F-9C99-F310415AEF2C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OfficeHealthTracker.Infrastructure", "src\OfficeHealthTracker.Infrastructure\OfficeHealthTracker.Infrastructure.csproj", "{21B9B317-CA02-4C4D-B2D4-29F5D9D0319D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OfficeHealthTracker.Interfaces", "src\OfficeHealthTracker.Interfaces\OfficeHealthTracker.Interfaces.csproj", "{E9D07078-6CA5-4DD7-8356-D887B4BE608B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OfficeHealthTracker.Mvc", "src\OfficeHealthTracker.Mvc\OfficeHealthTracker.Mvc.csproj", "{C738B1E1-F87A-4B6E-ACFE-6524D85B2C44}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OfficeHealthTracker.Tests", "src\OfficeHealthTracker.Tests\OfficeHealthTracker.Tests.csproj", "{7625925C-A719-40BF-A090-4A068DB6C28B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{603A691A-792F-415D-9748-87C69EA21C9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{603A691A-792F-415D-9748-87C69EA21C9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{603A691A-792F-415D-9748-87C69EA21C9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{603A691A-792F-415D-9748-87C69EA21C9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5681FEE9-733C-4F8F-9C99-F310415AEF2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5681FEE9-733C-4F8F-9C99-F310415AEF2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5681FEE9-733C-4F8F-9C99-F310415AEF2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5681FEE9-733C-4F8F-9C99-F310415AEF2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21B9B317-CA02-4C4D-B2D4-29F5D9D0319D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21B9B317-CA02-4C4D-B2D4-29F5D9D0319D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21B9B317-CA02-4C4D-B2D4-29F5D9D0319D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21B9B317-CA02-4C4D-B2D4-29F5D9D0319D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9D07078-6CA5-4DD7-8356-D887B4BE608B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9D07078-6CA5-4DD7-8356-D887B4BE608B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9D07078-6CA5-4DD7-8356-D887B4BE608B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9D07078-6CA5-4DD7-8356-D887B4BE608B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C738B1E1-F87A-4B6E-ACFE-6524D85B2C44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C738B1E1-F87A-4B6E-ACFE-6524D85B2C44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C738B1E1-F87A-4B6E-ACFE-6524D85B2C44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C738B1E1-F87A-4B6E-ACFE-6524D85B2C44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7625925C-A719-40BF-A090-4A068DB6C28B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7625925C-A719-40BF-A090-4A068DB6C28B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7625925C-A719-40BF-A090-4A068DB6C28B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7625925C-A719-40BF-A090-4A068DB6C28B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {14CCDA6B-2041-48BB-B6A0-B0DC7EC95949}
+	EndGlobalSection
+EndGlobal

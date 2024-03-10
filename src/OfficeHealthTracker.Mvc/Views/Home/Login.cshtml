@@ -1,0 +1,35 @@
+﻿@{
+    ViewData["Title"] = "Log In";
+    Layout = "/Views/Shared/_BackendLoginLayout.cshtml";
+
+}
+
+<div class="heading mb-4">
+    <h4>Login into your account</h4>
+</div>
+
+<div class="form-input">
+    <span><i class="fa fa-envelope"></i></span>
+    <input type="email" placeholder="Email Address" required="">
+    @*        @Html.TextBoxFor(m => m.UserName, new { @placeholder = "Email Address" })
+        @Html.ValidationMessageFor(m => m.UserName, "", new { @class = "text-danger" })*@
+</div>
+
+
+<div class="form-input">
+    <span><i class="fa fa-lock"></i></span>
+    <input type="password" placeholder="Password" required="">
+    @*        @Html.PasswordFor(m => m.Password, new { @placeholder = "Password"  })
+        @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })*@
+</div>
+<div class="row mb-3">
+    <div class="col-6 d-flex">
+        <a href="register.html" class="register-link">Register here</a>
+    </div>
+    <div class="col-6 text-right">
+        <a href="forget.html" class="forget-link">Forget Password</a>
+    </div>
+</div>
+<div class="text-center mb-12">
+    <button type="submit" class="btn" style="width: 100%">Login</button>
+</div>

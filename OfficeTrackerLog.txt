@@ -1,0 +1,523 @@
+3/10/2024 10:27:03 PM [Information] Getting all templates.
+3/10/2024 10:27:12 PM [Information] Getting all templates.
+3/10/2024 10:27:13 PM [Information] Getting all templates from the database.
+3/10/2024 10:33:23 PM [Information] Application started. Press Ctrl+C to shut down.
+3/10/2024 10:33:23 PM [Information] Hosting environment: Development
+3/10/2024 10:33:23 PM [Information] Content root path: C:\HTT\InterView\STPL Technical Assessment\OfficeHealthTrackerAPI\src\BookStoreManagementSystem.Mvc
+3/10/2024 10:33:31 PM [Information] Getting all templates.
+3/10/2024 10:33:32 PM [Information] Getting all templates.
+3/10/2024 10:33:33 PM [Information] Getting all templates from the database.
+3/10/2024 10:33:34 PM [Warning] No type was specified for the decimal column 'SellingPrice' on entity type 'Book'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+3/10/2024 10:33:34 PM [Warning] No type was specified for the decimal column 'Amount' on entity type 'Sale'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+3/10/2024 10:33:34 PM [Warning] No type was specified for the decimal column 'SellingPrice' on entity type 'Sale'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+3/10/2024 10:33:38 PM [Information] All templates retrieved successfully.
+3/10/2024 10:52:15 PM [Information] Adding template.
+3/10/2024 10:54:23 PM [Information] Application started. Press Ctrl+C to shut down.
+3/10/2024 10:54:23 PM [Information] Hosting environment: Development
+3/10/2024 10:54:23 PM [Information] Content root path: C:\HTT\InterView\STPL Technical Assessment\OfficeHealthTrackerAPI\src\BookStoreManagementSystem.Mvc
+3/10/2024 10:57:27 PM [Information] Application started. Press Ctrl+C to shut down.
+3/10/2024 10:57:27 PM [Information] Hosting environment: Development
+3/10/2024 10:57:27 PM [Information] Content root path: C:\HTT\InterView\STPL Technical Assessment\OfficeHealthTrackerAPI\src\BookStoreManagementSystem.Mvc
+3/10/2024 10:58:07 PM [Information] Adding template.
+3/10/2024 10:58:15 PM [Information] Adding template.
+3/10/2024 11:05:40 PM [Information] Adding template.
+3/10/2024 11:05:57 PM [Information] Adding template.
+3/10/2024 11:08:40 PM [Information] Template created successfully.
+3/10/2024 11:09:47 PM [Information] Adding template.
+3/10/2024 11:10:16 PM [Warning] No type was specified for the decimal column 'SellingPrice' on entity type 'Book'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+3/10/2024 11:10:16 PM [Warning] No type was specified for the decimal column 'Amount' on entity type 'Sale'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+3/10/2024 11:10:16 PM [Warning] No type was specified for the decimal column 'SellingPrice' on entity type 'Sale'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+3/10/2024 11:10:21 PM [Error] Failed executing DbCommand (35ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = Guid), @p4='?' (DbType = Int32), @p5='?' (DbType = Guid), @p6='?' (DbType = DateTime2), @p7='?' (DbType = Guid), @p8='?' (DbType = DateTime2), @p9='?' (Size = 4000), @p10='?' (DbType = Guid), @p11='?' (DbType = Int32), @p12='?' (DbType = Guid), @p13='?' (DbType = DateTime2), @p14='?' (DbType = Guid), @p15='?' (DbType = DateTime2), @p16='?' (Size = 4000), @p17='?' (DbType = Guid), @p18='?' (DbType = Int32), @p19='?' (DbType = Guid), @p20='?' (DbType = DateTime2), @p21='?' (DbType = Guid), @p22='?' (DbType = DateTime2), @p23='?' (Size = 4000), @p24='?' (DbType = Guid), @p25='?' (DbType = Int32), @p26='?' (DbType = Guid), @p27='?' (DbType = DateTime2), @p28='?' (DbType = Guid), @p29='?' (DbType = DateTime2), @p30='?' (Size = 4000), @p31='?' (DbType = Guid), @p32='?' (DbType = Int32), @p33='?' (DbType = Guid), @p34='?' (DbType = DateTime2), @p35='?' (DbType = Guid), @p36='?' (DbType = DateTime2), @p37='?' (Size = 4000), @p38='?' (DbType = Guid), @p39='?' (DbType = Int32), @p40='?' (DbType = Guid), @p41='?' (DbType = DateTime2), @p42='?' (DbType = Guid), @p43='?' (DbType = DateTime2), @p44='?' (Size = 4000), @p45='?' (DbType = Guid), @p46='?' (DbType = Int32), @p47='?' (DbType = Guid), @p48='?' (DbType = DateTime2), @p49='?' (DbType = Guid), @p50='?' (DbType = DateTime2), @p51='?' (Size = 4000), @p52='?' (DbType = Guid), @p53='?' (DbType = Int32), @p54='?' (DbType = Guid), @p55='?' (DbType = DateTime2), @p56='?' (DbType = Guid), @p57='?' (DbType = DateTime2), @p58='?' (Size = 4000), @p59='?' (DbType = Guid), @p60='?' (DbType = Int32), @p61='?' (DbType = Guid), @p62='?' (DbType = DateTime2), @p63='?' (DbType = Guid), @p64='?' (DbType = DateTime2), @p65='?' (Size = 4000), @p66='?' (DbType = Guid), @p67='?' (DbType = Int32), @p68='?' (DbType = Guid), @p69='?' (DbType = DateTime2), @p70='?' (DbType = Guid), @p71='?' (DbType = DateTime2), @p72='?' (Size = 4000), @p73='?' (DbType = Guid), @p74='?' (DbType = Int32), @p75='?' (DbType = Guid), @p76='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [TemplateFields] ([TemplateFieldId], [CreatedDate], [FieldOptions], [FieldTypeId], [Sorting], [TemplateId], [UpdatedDate])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6),
+(@p7, @p8, @p9, @p10, @p11, @p12, @p13),
+(@p14, @p15, @p16, @p17, @p18, @p19, @p20),
+(@p21, @p22, @p23, @p24, @p25, @p26, @p27),
+(@p28, @p29, @p30, @p31, @p32, @p33, @p34),
+(@p35, @p36, @p37, @p38, @p39, @p40, @p41),
+(@p42, @p43, @p44, @p45, @p46, @p47, @p48),
+(@p49, @p50, @p51, @p52, @p53, @p54, @p55),
+(@p56, @p57, @p58, @p59, @p60, @p61, @p62),
+(@p63, @p64, @p65, @p66, @p67, @p68, @p69),
+(@p70, @p71, @p72, @p73, @p74, @p75, @p76);
+3/10/2024 11:10:21 PM [Error] An exception occurred in the database while saving changes for context type 'OfficeHealthTracker.Infrastructure.Data.ApplicationDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_TemplateFields_Templates_TemplateId". The conflict occurred in database "STPLV1", table "dbo.Templates", column 'TemplateId'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:0f7c4552-5bcf-4288-a39c-50e30c62a3e0
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+3/10/2024 11:10:46 PM [Error] Error occurred while adding template: An error occurred while updating the entries. See the inner exception for details.
+3/10/2024 11:10:58 PM [Error] Error occurred while adding template: An error occurred while updating the entries. See the inner exception for details.
+3/10/2024 11:10:58 PM [Error] An error occurred while adding template: An error occurred while updating the entries. See the inner exception for details.
+3/10/2024 11:11:43 PM [Information] Application started. Press Ctrl+C to shut down.
+3/10/2024 11:11:43 PM [Information] Hosting environment: Development
+3/10/2024 11:11:43 PM [Information] Content root path: C:\HTT\InterView\STPL Technical Assessment\OfficeHealthTrackerAPI\src\BookStoreManagementSystem.Mvc
+3/10/2024 11:12:01 PM [Information] Adding template.
+3/10/2024 11:12:12 PM [Warning] No type was specified for the decimal column 'SellingPrice' on entity type 'Book'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+3/10/2024 11:12:12 PM [Warning] No type was specified for the decimal column 'Amount' on entity type 'Sale'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+3/10/2024 11:12:12 PM [Warning] No type was specified for the decimal column 'SellingPrice' on entity type 'Sale'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+3/10/2024 11:12:12 PM [Information] Template added successfully.
+3/10/2024 11:12:12 PM [Information] Template created successfully.
+3/10/2024 11:13:23 PM [Information] Application started. Press Ctrl+C to shut down.
+3/10/2024 11:13:23 PM [Information] Hosting environment: Development
+3/10/2024 11:13:23 PM [Information] Content root path: C:\HTT\InterView\STPL Technical Assessment\OfficeHealthTrackerAPI\src\BookStoreManagementSystem.Mvc
+3/10/2024 11:14:51 PM [Information] Getting template with ID: 63E13712-B9B7-4E8D-A8B4-1BB36635856D.
+3/10/2024 11:14:52 PM [Information] Getting template with ID 63e13712-b9b7-4e8d-a8b4-1bb36635856d.
+3/10/2024 11:14:52 PM [Information] Getting template with ID 63e13712-b9b7-4e8d-a8b4-1bb36635856d from the database.
+3/10/2024 11:14:53 PM [Warning] No type was specified for the decimal column 'SellingPrice' on entity type 'Book'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+3/10/2024 11:14:53 PM [Warning] No type was specified for the decimal column 'Amount' on entity type 'Sale'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+3/10/2024 11:14:53 PM [Warning] No type was specified for the decimal column 'SellingPrice' on entity type 'Sale'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+3/10/2024 11:15:17 PM [Information] Getting template with ID 63e13712-b9b7-4e8d-a8b4-1bb36635856d.
+3/10/2024 11:15:17 PM [Information] Getting template with ID 63e13712-b9b7-4e8d-a8b4-1bb36635856d from the database.
+3/10/2024 11:20:53 PM [Information] Application started. Press Ctrl+C to shut down.
+3/10/2024 11:20:53 PM [Information] Hosting environment: Development
+3/10/2024 11:20:53 PM [Information] Content root path: C:\HTT\InterView\STPL Technical Assessment\OfficeHealthTrackerAPI\src\BookStoreManagementSystem.Mvc
+3/10/2024 11:21:14 PM [Information] Getting template with ID: 63E13712-B9B7-4E8D-A8B4-1BB36635856D.
+3/10/2024 11:21:15 PM [Information] Getting template with ID 63e13712-b9b7-4e8d-a8b4-1bb36635856d.
+3/10/2024 11:21:16 PM [Information] Getting template with ID 63e13712-b9b7-4e8d-a8b4-1bb36635856d from the database.
+3/10/2024 11:21:17 PM [Warning] No type was specified for the decimal column 'SellingPrice' on entity type 'Book'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+3/10/2024 11:21:17 PM [Warning] No type was specified for the decimal column 'Amount' on entity type 'Sale'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+3/10/2024 11:21:17 PM [Warning] No type was specified for the decimal column 'SellingPrice' on entity type 'Sale'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+3/10/2024 11:21:31 PM [Information] Template found.
+3/10/2024 11:26:48 PM [Information] Application started. Press Ctrl+C to shut down.
+3/10/2024 11:26:48 PM [Information] Hosting environment: Development
+3/10/2024 11:26:48 PM [Information] Content root path: C:\HTT\InterView\STPL Technical Assessment\OfficeHealthTrackerAPI\src\BookStoreManagementSystem.Mvc
+3/10/2024 11:30:30 PM [Information] Application started. Press Ctrl+C to shut down.
+3/10/2024 11:30:30 PM [Information] Hosting environment: Development
+3/10/2024 11:30:30 PM [Information] Content root path: C:\HTT\InterView\STPL Technical Assessment\OfficeHealthTrackerAPI\src\BookStoreManagementSystem.Mvc
+3/10/2024 11:32:03 PM [Information] Adding template.
+3/10/2024 11:32:05 PM [Warning] No type was specified for the decimal column 'SellingPrice' on entity type 'Book'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+3/10/2024 11:32:05 PM [Warning] No type was specified for the decimal column 'Amount' on entity type 'Sale'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+3/10/2024 11:32:05 PM [Warning] No type was specified for the decimal column 'SellingPrice' on entity type 'Sale'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+3/10/2024 11:32:05 PM [Information] Template added successfully.
+3/10/2024 11:32:05 PM [Information] Template created successfully.
+3/10/2024 11:32:23 PM [Information] Getting all templates.
+3/10/2024 11:32:23 PM [Information] Getting all templates.
+3/10/2024 11:32:23 PM [Information] Getting all templates from the database.
+3/10/2024 11:32:23 PM [Information] All templates retrieved successfully.
+3/10/2024 11:32:38 PM [Information] Getting all templates.
+3/10/2024 11:32:42 PM [Information] Getting all templates.
+3/10/2024 11:32:42 PM [Information] Getting all templates from the database.
+3/10/2024 11:33:24 PM [Information] All templates retrieved successfully.
+3/10/2024 11:35:59 PM [Information] Application started. Press Ctrl+C to shut down.
+3/10/2024 11:35:59 PM [Information] Hosting environment: Development
+3/10/2024 11:35:59 PM [Information] Content root path: C:\HTT\InterView\STPL Technical Assessment\OfficeHealthTrackerAPI\src\BookStoreManagementSystem.Mvc
+3/10/2024 11:36:08 PM [Information] Getting all templates.
+3/10/2024 11:36:08 PM [Information] Getting all templates.
+3/10/2024 11:36:08 PM [Information] Getting all templates from the database.
+3/10/2024 11:36:08 PM [Warning] No type was specified for the decimal column 'SellingPrice' on entity type 'Book'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+3/10/2024 11:36:08 PM [Warning] No type was specified for the decimal column 'Amount' on entity type 'Sale'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+3/10/2024 11:36:08 PM [Warning] No type was specified for the decimal column 'SellingPrice' on entity type 'Sale'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+3/10/2024 11:36:14 PM [Information] All templates retrieved successfully.
+3/10/2024 11:37:21 PM [Information] Application started. Press Ctrl+C to shut down.
+3/10/2024 11:37:21 PM [Information] Hosting environment: Development
+3/10/2024 11:37:21 PM [Information] Content root path: C:\HTT\InterView\STPL Technical Assessment\OfficeHealthTrackerAPI\src\BookStoreManagementSystem.Mvc
+3/10/2024 11:37:29 PM [Information] Getting all templates.
+3/10/2024 11:37:29 PM [Information] Getting all templates.
+3/10/2024 11:37:29 PM [Information] Getting all templates from the database.
+3/10/2024 11:37:29 PM [Warning] No type was specified for the decimal column 'SellingPrice' on entity type 'Book'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+3/10/2024 11:37:29 PM [Warning] No type was specified for the decimal column 'Amount' on entity type 'Sale'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+3/10/2024 11:37:29 PM [Warning] No type was specified for the decimal column 'SellingPrice' on entity type 'Sale'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+3/10/2024 11:37:29 PM [Information] All templates retrieved successfully.
+3/10/2024 11:39:02 PM [Information] Application started. Press Ctrl+C to shut down.
+3/10/2024 11:39:02 PM [Information] Hosting environment: Development
+3/10/2024 11:39:02 PM [Information] Content root path: C:\HTT\InterView\STPL Technical Assessment\OfficeHealthTrackerAPI\src\BookStoreManagementSystem.Mvc
+3/10/2024 11:39:50 PM [Information] Getting template with ID: 63E13712-B9B7-4E8D-A8B4-1BB36635856D.
+3/10/2024 11:39:53 PM [Information] Getting template with ID 63e13712-b9b7-4e8d-a8b4-1bb36635856d.
+3/10/2024 11:39:53 PM [Information] Getting template with ID 63e13712-b9b7-4e8d-a8b4-1bb36635856d from the database.
+3/10/2024 11:39:54 PM [Warning] No type was specified for the decimal column 'SellingPrice' on entity type 'Book'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+3/10/2024 11:39:54 PM [Warning] No type was specified for the decimal column 'Amount' on entity type 'Sale'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+3/10/2024 11:39:54 PM [Warning] No type was specified for the decimal column 'SellingPrice' on entity type 'Sale'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+3/10/2024 11:39:54 PM [Information] Template found.
+3/11/2024 12:20:30 AM [Information] Application started. Press Ctrl+C to shut down.
+3/11/2024 12:20:30 AM [Information] Hosting environment: Development
+3/11/2024 12:20:30 AM [Information] Content root path: C:\HTT\InterView\STPL Technical Assessment\OfficeHealthTrackerAPI\src\BookStoreManagementSystem.Mvc
+3/11/2024 12:22:32 AM [Information] Application started. Press Ctrl+C to shut down.
+3/11/2024 12:22:32 AM [Information] Hosting environment: Development
+3/11/2024 12:22:32 AM [Information] Content root path: C:\HTT\InterView\STPL Technical Assessment\OfficeHealthTrackerAPI\src\BookStoreManagementSystem.Mvc
+3/11/2024 12:23:04 AM [Error] An unhandled exception has occurred while executing the request.
+3/11/2024 12:23:55 AM [Information] Application started. Press Ctrl+C to shut down.
+3/11/2024 12:23:55 AM [Information] Hosting environment: Development
+3/11/2024 12:23:55 AM [Information] Content root path: C:\HTT\InterView\STPL Technical Assessment\OfficeHealthTrackerAPI\src\BookStoreManagementSystem.Mvc
+3/11/2024 12:25:00 AM [Information] Adding payload.
+3/11/2024 12:25:02 AM [Warning] No type was specified for the decimal column 'SellingPrice' on entity type 'Book'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+3/11/2024 12:25:02 AM [Warning] No type was specified for the decimal column 'Amount' on entity type 'Sale'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+3/11/2024 12:25:02 AM [Warning] No type was specified for the decimal column 'SellingPrice' on entity type 'Sale'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+3/11/2024 12:25:02 AM [Error] Failed executing DbCommand (31ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 4000), @p2='?' (DbType = Int32), @p3='?' (DbType = Boolean), @p4='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [PayloadDatas] ([PayLoadId], [DeviceId], [Humidity], [Occupancy], [Temperature])
+VALUES (@p0, @p1, @p2, @p3, @p4);
+3/11/2024 12:25:02 AM [Error] An exception occurred in the database while saving changes for context type 'OfficeHealthTracker.Infrastructure.Data.ApplicationDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'PayloadDatas'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:55e6d7d7-4c15-433e-88ae-d80adf5c0ba5
+Error Number:208,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+3/11/2024 12:25:02 AM [Error] Error occurred while adding Payload: An error occurred while updating the entries. See the inner exception for details.
+3/11/2024 12:25:02 AM [Error] Error occurred while adding payload: An error occurred while updating the entries. See the inner exception for details.
+3/11/2024 12:25:17 AM [Warning] No type was specified for the decimal column 'SellingPrice' on entity type 'Book'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+3/11/2024 12:25:17 AM [Warning] No type was specified for the decimal column 'Amount' on entity type 'Sale'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+3/11/2024 12:25:17 AM [Warning] No type was specified for the decimal column 'SellingPrice' on entity type 'Sale'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+3/11/2024 12:25:28 AM [Warning] No type was specified for the decimal column 'SellingPrice' on entity type 'Book'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+3/11/2024 12:25:28 AM [Warning] No type was specified for the decimal column 'Amount' on entity type 'Sale'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+3/11/2024 12:25:28 AM [Warning] No type was specified for the decimal column 'SellingPrice' on entity type 'Sale'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+3/11/2024 12:25:36 AM [Warning] No type was specified for the decimal column 'SellingPrice' on entity type 'Book'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+3/11/2024 12:25:36 AM [Warning] No type was specified for the decimal column 'Amount' on entity type 'Sale'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+3/11/2024 12:25:36 AM [Warning] No type was specified for the decimal column 'SellingPrice' on entity type 'Sale'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+3/11/2024 12:25:56 AM [Information] Application started. Press Ctrl+C to shut down.
+3/11/2024 12:25:56 AM [Information] Hosting environment: Development
+3/11/2024 12:25:56 AM [Information] Content root path: C:\HTT\InterView\STPL Technical Assessment\OfficeHealthTrackerAPI\src\BookStoreManagementSystem.Mvc
+3/11/2024 12:26:08 AM [Information] Adding payload.
+3/11/2024 12:26:17 AM [Warning] No type was specified for the decimal column 'SellingPrice' on entity type 'Book'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+3/11/2024 12:26:17 AM [Warning] No type was specified for the decimal column 'Amount' on entity type 'Sale'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+3/11/2024 12:26:17 AM [Warning] No type was specified for the decimal column 'SellingPrice' on entity type 'Sale'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+3/11/2024 12:26:17 AM [Information] Payload added successfully.
+3/11/2024 12:26:21 AM [Information] payload created successfully.
+3/11/2024 12:27:40 AM [Information] Adding payload.
+3/11/2024 12:27:40 AM [Information] Payload added successfully.
+3/11/2024 12:27:43 AM [Information] payload created successfully.
+3/11/2024 12:33:16 AM [Information] Application started. Press Ctrl+C to shut down.
+3/11/2024 12:33:16 AM [Information] Hosting environment: Development
+3/11/2024 12:33:16 AM [Information] Content root path: C:\HTT\InterView\STPL Technical Assessment\OfficeHealthTrackerAPI\src\BookStoreManagementSystem.Mvc
+3/11/2024 12:34:19 AM [Information] Application started. Press Ctrl+C to shut down.
+3/11/2024 12:34:19 AM [Information] Hosting environment: Development
+3/11/2024 12:34:19 AM [Information] Content root path: C:\HTT\InterView\STPL Technical Assessment\OfficeHealthTrackerAPI\src\BookStoreManagementSystem.Mvc
+3/11/2024 12:36:27 AM [Information] Adding address.
+3/11/2024 12:36:28 AM [Warning] No type was specified for the decimal column 'SellingPrice' on entity type 'Book'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+3/11/2024 12:36:28 AM [Warning] No type was specified for the decimal column 'Amount' on entity type 'Sale'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+3/11/2024 12:36:28 AM [Warning] No type was specified for the decimal column 'SellingPrice' on entity type 'Sale'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+3/11/2024 12:36:28 AM [Error] Failed executing DbCommand (31ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2), @p6='?' (DbType = Double), @p7='?' (Size = 4000), @p8='?' (Size = 4000), @p9='?' (DbType = Double), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (Size = 4000), @p13='?' (Size = 4000), @p14='?' (Size = 4000), @p15='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Addresses] ([AddressId], [Building], [CarPark], [City], [Country], [CreatedDate], [Latitude], [Level], [Lobby], [Longitude], [Pantry], [PostalCode], [Room], [State], [Street], [UpdatedDate])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15);
+3/11/2024 12:36:28 AM [Error] An exception occurred in the database while saving changes for context type 'OfficeHealthTracker.Infrastructure.Data.ApplicationDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'CreatedDate'.
+Invalid column name 'UpdatedDate'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:9046b949-0edb-4132-8b68-55e90155cf54
+Error Number:207,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+3/11/2024 12:36:28 AM [Error] Error occurred while adding address: An error occurred while updating the entries. See the inner exception for details.
+3/11/2024 12:36:28 AM [Error] Error occurred while adding address: An error occurred while updating the entries. See the inner exception for details.
+3/11/2024 12:36:28 AM [Information] Address added successfully.
+3/11/2024 12:37:22 AM [Information] Adding address.
+3/11/2024 12:37:25 AM [Error] Failed executing DbCommand (3ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2), @p6='?' (DbType = Double), @p7='?' (Size = 4000), @p8='?' (Size = 4000), @p9='?' (DbType = Double), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (Size = 4000), @p13='?' (Size = 4000), @p14='?' (Size = 4000), @p15='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Addresses] ([AddressId], [Building], [CarPark], [City], [Country], [CreatedDate], [Latitude], [Level], [Lobby], [Longitude], [Pantry], [PostalCode], [Room], [State], [Street], [UpdatedDate])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15);
+3/11/2024 12:37:25 AM [Error] An exception occurred in the database while saving changes for context type 'OfficeHealthTracker.Infrastructure.Data.ApplicationDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'CreatedDate'.
+Invalid column name 'UpdatedDate'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:9046b949-0edb-4132-8b68-55e90155cf54
+Error Number:207,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+3/11/2024 12:37:25 AM [Error] Error occurred while adding address: An error occurred while updating the entries. See the inner exception for details.
+3/11/2024 12:37:25 AM [Error] Error occurred while adding address: An error occurred while updating the entries. See the inner exception for details.
+3/11/2024 12:37:40 AM [Information] Address added successfully.
+3/11/2024 12:37:48 AM [Information] Adding address.
+3/11/2024 12:38:08 AM [Error] Failed executing DbCommand (3ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2), @p6='?' (DbType = Double), @p7='?' (Size = 4000), @p8='?' (Size = 4000), @p9='?' (DbType = Double), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (Size = 4000), @p13='?' (Size = 4000), @p14='?' (Size = 4000), @p15='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Addresses] ([AddressId], [Building], [CarPark], [City], [Country], [CreatedDate], [Latitude], [Level], [Lobby], [Longitude], [Pantry], [PostalCode], [Room], [State], [Street], [UpdatedDate])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15);
+3/11/2024 12:38:08 AM [Error] An exception occurred in the database while saving changes for context type 'OfficeHealthTracker.Infrastructure.Data.ApplicationDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'CreatedDate'.
+Invalid column name 'UpdatedDate'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:9046b949-0edb-4132-8b68-55e90155cf54
+Error Number:207,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+3/11/2024 12:38:08 AM [Error] Error occurred while adding address: An error occurred while updating the entries. See the inner exception for details.
+3/11/2024 12:40:14 AM [Information] Application started. Press Ctrl+C to shut down.
+3/11/2024 12:40:14 AM [Information] Hosting environment: Development
+3/11/2024 12:40:14 AM [Information] Content root path: C:\HTT\InterView\STPL Technical Assessment\OfficeHealthTrackerAPI\src\BookStoreManagementSystem.Mvc
+3/11/2024 12:40:31 AM [Information] Adding address.
+3/11/2024 12:40:35 AM [Warning] No type was specified for the decimal column 'SellingPrice' on entity type 'Book'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+3/11/2024 12:40:35 AM [Warning] No type was specified for the decimal column 'Amount' on entity type 'Sale'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+3/11/2024 12:40:35 AM [Warning] No type was specified for the decimal column 'SellingPrice' on entity type 'Sale'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+3/11/2024 12:40:35 AM [Error] Failed executing DbCommand (29ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2), @p6='?' (DbType = Double), @p7='?' (Size = 4000), @p8='?' (Size = 4000), @p9='?' (DbType = Double), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (Size = 4000), @p13='?' (Size = 4000), @p14='?' (Size = 4000), @p15='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Addresses] ([AddressId], [Building], [CarPark], [City], [Country], [CreatedDate], [Latitude], [Level], [Lobby], [Longitude], [Pantry], [PostalCode], [Room], [State], [Street], [UpdatedDate])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15);
+3/11/2024 12:40:35 AM [Error] An exception occurred in the database while saving changes for context type 'OfficeHealthTracker.Infrastructure.Data.ApplicationDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'CreatedDate'.
+Invalid column name 'UpdatedDate'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:b169bc9b-5c38-453a-a393-5f5685ca1241
+Error Number:207,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+3/11/2024 12:40:35 AM [Error] Error occurred while adding address: An error occurred while updating the entries. See the inner exception for details.
+3/11/2024 12:40:35 AM [Error] Error occurred while adding address: An error occurred while updating the entries. See the inner exception for details.
+3/11/2024 12:40:35 AM [Information] Address added successfully.
+3/11/2024 12:40:45 AM [Information] Adding address.
+3/11/2024 12:41:07 AM [Error] Failed executing DbCommand (2ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2), @p6='?' (DbType = Double), @p7='?' (Size = 4000), @p8='?' (Size = 4000), @p9='?' (DbType = Double), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (Size = 4000), @p13='?' (Size = 4000), @p14='?' (Size = 4000), @p15='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Addresses] ([AddressId], [Building], [CarPark], [City], [Country], [CreatedDate], [Latitude], [Level], [Lobby], [Longitude], [Pantry], [PostalCode], [Room], [State], [Street], [UpdatedDate])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15);
+3/11/2024 12:41:07 AM [Error] An exception occurred in the database while saving changes for context type 'OfficeHealthTracker.Infrastructure.Data.ApplicationDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'CreatedDate'.
+Invalid column name 'UpdatedDate'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:b169bc9b-5c38-453a-a393-5f5685ca1241
+Error Number:207,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+3/11/2024 12:41:07 AM [Error] Error occurred while adding address: An error occurred while updating the entries. See the inner exception for details.
+3/11/2024 12:41:27 AM [Warning] No type was specified for the decimal column 'SellingPrice' on entity type 'Book'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+3/11/2024 12:41:27 AM [Warning] No type was specified for the decimal column 'Amount' on entity type 'Sale'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+3/11/2024 12:41:27 AM [Warning] No type was specified for the decimal column 'SellingPrice' on entity type 'Sale'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+3/11/2024 12:41:34 AM [Warning] No type was specified for the decimal column 'SellingPrice' on entity type 'Book'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+3/11/2024 12:41:34 AM [Warning] No type was specified for the decimal column 'Amount' on entity type 'Sale'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+3/11/2024 12:41:34 AM [Warning] No type was specified for the decimal column 'SellingPrice' on entity type 'Sale'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+3/11/2024 12:41:39 AM [Information] Application started. Press Ctrl+C to shut down.
+3/11/2024 12:41:39 AM [Information] Hosting environment: Development
+3/11/2024 12:41:39 AM [Information] Content root path: C:\HTT\InterView\STPL Technical Assessment\OfficeHealthTrackerAPI\src\BookStoreManagementSystem.Mvc
+3/11/2024 12:41:44 AM [Information] Adding address.
+3/11/2024 12:41:54 AM [Warning] No type was specified for the decimal column 'SellingPrice' on entity type 'Book'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+3/11/2024 12:41:54 AM [Warning] No type was specified for the decimal column 'Amount' on entity type 'Sale'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+3/11/2024 12:41:54 AM [Warning] No type was specified for the decimal column 'SellingPrice' on entity type 'Sale'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+3/11/2024 12:41:54 AM [Information] Address added successfully.
+3/11/2024 12:42:26 AM [Information] Address added successfully.
+3/11/2024 12:51:14 AM [Information] Application started. Press Ctrl+C to shut down.
+3/11/2024 12:51:14 AM [Information] Hosting environment: Development
+3/11/2024 12:51:14 AM [Information] Content root path: C:\HTT\InterView\STPL Technical Assessment\Final\OfficeHealthTrackerAPI\src\BookStoreManagementSystem.Mvc
+3/11/2024 12:56:03 AM [Information] Application started. Press Ctrl+C to shut down.
+3/11/2024 12:56:03 AM [Information] Hosting environment: Development
+3/11/2024 12:56:03 AM [Information] Content root path: C:\HTT\InterView\STPL Technical Assessment\Final\OfficeHealthTrackerAPI\src\BookStoreManagementSystem.Mvc
+3/11/2024 1:27:43 AM [Information] Application started. Press Ctrl+C to shut down.
+3/11/2024 1:27:43 AM [Information] Hosting environment: Development
+3/11/2024 1:27:43 AM [Information] Content root path: C:\HTT\InterView\STPL Technical Assessment\Final\OfficeHealthTrackerAPI\src\BookStoreManagementSystem.Mvc
+3/11/2024 1:31:26 AM [Information] Getting all field types.
+3/11/2024 1:31:26 AM [Information] Getting all field types.
+3/11/2024 1:31:26 AM [Information] Getting all field types from the database.
+3/11/2024 1:31:26 AM [Information] All field types retrieved successfully.
+3/11/2024 1:32:21 AM [Information] Getting all field types.
+3/11/2024 1:32:22 AM [Information] Getting all field types.
+3/11/2024 1:32:22 AM [Information] Getting all field types from the database.
+3/11/2024 1:32:51 AM [Information] Application started. Press Ctrl+C to shut down.
+3/11/2024 1:32:51 AM [Information] Hosting environment: Development
+3/11/2024 1:32:51 AM [Information] Content root path: C:\HTT\InterView\STPL Technical Assessment\Final\OfficeHealthTrackerAPI\src\BookStoreManagementSystem.Mvc
+3/11/2024 1:33:01 AM [Information] Getting all field types.
+3/11/2024 1:33:01 AM [Information] Getting all field types.
+3/11/2024 1:33:01 AM [Information] Getting all field types from the database.
+3/11/2024 1:33:05 AM [Information] All field types retrieved successfully.
+3/11/2024 1:38:35 AM [Information] Adding field type.
+3/11/2024 1:38:35 AM [Information] Field type added successfully.
+3/11/2024 1:38:35 AM [Information] Field type created successfully.
+3/11/2024 1:42:59 AM [Information] Updating field type.
+3/11/2024 1:42:59 AM [Information] Getting field type with ID 3d986c86-321f-427c-8624-1b8f513c4245.
+3/11/2024 1:42:59 AM [Information] Getting field type with ID 3d986c86-321f-427c-8624-1b8f513c4245 from the database.
+3/11/2024 1:43:08 AM [Error] An error occurred while updating field type: Object reference not set to an instance of an object.
+3/11/2024 1:43:28 AM [Information] Updating field type.
+3/11/2024 1:43:29 AM [Information] Getting field type with ID 3d986c86-321f-427c-8624-1b8f513c4245.
+3/11/2024 1:43:29 AM [Information] Getting field type with ID 3d986c86-321f-427c-8624-1b8f513c4245 from the database.
+3/11/2024 1:43:41 AM [Error] An error occurred while updating field type: Object reference not set to an instance of an object.
+3/11/2024 1:43:51 AM [Information] Updating field type.
+3/11/2024 1:43:59 AM [Information] Getting field type with ID 3d986c86-321f-427c-8624-1b8f513c4245.
+3/11/2024 1:44:01 AM [Information] Getting field type with ID 3d986c86-321f-427c-8624-1b8f513c4245 from the database.
+3/11/2024 1:44:09 AM [Error] An error occurred while updating field type: Object reference not set to an instance of an object.
+3/11/2024 1:45:02 AM [Information] Updating field type.
+3/11/2024 1:45:04 AM [Information] Getting field type with ID ee46fa72-325e-4eec-9a83-c267862cec73.
+3/11/2024 1:45:04 AM [Information] Getting field type with ID ee46fa72-325e-4eec-9a83-c267862cec73 from the database.
+3/11/2024 1:45:07 AM [Information] Field type with ID ee46fa72-325e-4eec-9a83-c267862cec73 updated successfully.
+3/11/2024 1:45:08 AM [Information] Field type updated successfully.
+3/11/2024 1:47:12 AM [Information] Deleting field type with ID: ee46fa72-325e-4eec-9a83-c267862cec73.
+3/11/2024 1:47:14 AM [Information] Getting field type with ID ee46fa72-325e-4eec-9a83-c267862cec73.
+3/11/2024 1:47:14 AM [Information] Getting field type with ID ee46fa72-325e-4eec-9a83-c267862cec73 from the database.
+3/11/2024 1:47:14 AM [Information] Field type with ID ee46fa72-325e-4eec-9a83-c267862cec73 deleted successfully.
+3/11/2024 1:47:14 AM [Information] Field type with ID ee46fa72-325e-4eec-9a83-c267862cec73 deleted successfully.
+3/11/2024 1:47:14 AM [Information] Field type deleted successfully.
+3/11/2024 1:59:34 AM [Information] Getting all addresses.
+3/11/2024 1:59:34 AM [Information] Getting all addresses.
+3/11/2024 1:59:34 AM [Information] Getting all addresses from the database.
+3/11/2024 1:59:34 AM [Information] All addresses retrieved successfully.
+3/11/2024 2:00:05 AM [Information] Adding address.
+3/11/2024 2:00:15 AM [Information] Address added successfully.
+3/11/2024 2:00:15 AM [Information] Address added successfully.
+3/11/2024 2:01:07 AM [Information] Getting address with ID: 23721487-96bb-430a-92ef-c76ce5411c5b.
+3/11/2024 2:01:07 AM [Information] Getting address with ID 23721487-96bb-430a-92ef-c76ce5411c5b.
+3/11/2024 2:01:07 AM [Information] Getting address with ID 23721487-96bb-430a-92ef-c76ce5411c5b from the database.
+3/11/2024 2:01:07 AM [Information] Address found.
+3/11/2024 2:02:45 AM [Information] Getting all addresses.
+3/11/2024 2:02:45 AM [Information] Getting all addresses.
+3/11/2024 2:02:45 AM [Information] Getting all addresses from the database.
+3/11/2024 2:02:45 AM [Information] All addresses retrieved successfully.
+3/11/2024 2:02:52 AM [Information] Getting all addresses.
+3/11/2024 2:02:52 AM [Information] Getting all addresses.
+3/11/2024 2:02:52 AM [Information] Getting all addresses from the database.
+3/11/2024 2:02:52 AM [Information] All addresses retrieved successfully.
+3/11/2024 2:03:05 AM [Information] Getting all addresses.
+3/11/2024 2:03:06 AM [Information] Getting all addresses.
+3/11/2024 2:03:06 AM [Information] Getting all addresses from the database.
+3/11/2024 2:03:33 AM [Information] Application started. Press Ctrl+C to shut down.
+3/11/2024 2:03:33 AM [Information] Hosting environment: Development
+3/11/2024 2:03:33 AM [Information] Content root path: C:\HTT\InterView\STPL Technical Assessment\Final\OfficeHealthTrackerAPI\src\BookStoreManagementSystem.Mvc
+3/11/2024 2:03:47 AM [Information] Getting all addresses.
+3/11/2024 2:03:47 AM [Information] Getting all addresses.
+3/11/2024 2:03:47 AM [Information] Getting all addresses from the database.
+3/11/2024 2:03:48 AM [Information] All addresses retrieved successfully.
+3/11/2024 2:06:08 AM [Information] Adding payload.
+3/11/2024 2:06:08 AM [Information] Payload added successfully.
+3/11/2024 2:06:08 AM [Information] payload created successfully.

@@ -1,0 +1,135 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="3.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="8.0.2" />
+    <PackageReference Include="StackExchange.Redis" Version="2.7.27" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\Content\" />
+    <Content Include="wwwroot\Content\**" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="wwwroot\css\**" />
+    <Compile Remove="wwwroot\data\**" />
+    <Compile Remove="wwwroot\Homer\**" />
+    <Compile Remove="wwwroot\htt\**" />
+    <Compile Remove="wwwroot\images\**" />
+    <Compile Remove="wwwroot\js\**" />
+    <Compile Remove="wwwroot\lib\**" />
+    <Compile Remove="wwwroot\novalink\**" />
+    <Content Remove="wwwroot\css\**" />
+    <Content Remove="wwwroot\data\**" />
+    <Content Remove="wwwroot\Homer\**" />
+    <Content Remove="wwwroot\htt\**" />
+    <Content Remove="wwwroot\images\**" />
+    <Content Remove="wwwroot\js\**" />
+    <Content Remove="wwwroot\lib\**" />
+    <Content Remove="wwwroot\novalink\**" />
+    <EmbeddedResource Remove="wwwroot\css\**" />
+    <EmbeddedResource Remove="wwwroot\data\**" />
+    <EmbeddedResource Remove="wwwroot\Homer\**" />
+    <EmbeddedResource Remove="wwwroot\htt\**" />
+    <EmbeddedResource Remove="wwwroot\images\**" />
+    <EmbeddedResource Remove="wwwroot\js\**" />
+    <EmbeddedResource Remove="wwwroot\lib\**" />
+    <EmbeddedResource Remove="wwwroot\novalink\**" />
+    <None Remove="wwwroot\css\**" />
+    <None Remove="wwwroot\data\**" />
+    <None Remove="wwwroot\Homer\**" />
+    <None Remove="wwwroot\htt\**" />
+    <None Remove="wwwroot\images\**" />
+    <None Remove="wwwroot\js\**" />
+    <None Remove="wwwroot\lib\**" />
+    <None Remove="wwwroot\novalink\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Views\Shared\Error.cshtml" />
+    <None Include="Views\Shared\_BackendLoginLayout.cshtml" />
+    <None Include="Views\Shared\_Layout.cshtml" />
+    <None Include="Views\Shared\_ValidationScriptsPartial.cshtml" />
+    <None Include="wwwroot\BackendLogIn\font-awesome\4.7.0\fonts\fontawesome-webfont.svg" />
+    <None Include="wwwroot\BackendLogIn\font-awesome\4.7.0\fonts\fontawesome-webfont.woff2" />
+    <None Include="wwwroot\BackendLogIn\jquery-3.3.1.slim.min.js" />
+    <None Include="wwwroot\Content\assets\favicon.ico" />
+    <None Include="wwwroot\Content\assets\img\bg-masthead.jpg" />
+    <None Include="wwwroot\Content\assets\img\portfolio\fullsize\1.jpg" />
+    <None Include="wwwroot\Content\assets\img\portfolio\fullsize\2.jpg" />
+    <None Include="wwwroot\Content\assets\img\portfolio\fullsize\3.jpg" />
+    <None Include="wwwroot\Content\assets\img\portfolio\fullsize\4.jpg" />
+    <None Include="wwwroot\Content\assets\img\portfolio\fullsize\5.jpg" />
+    <None Include="wwwroot\Content\assets\img\portfolio\fullsize\6.jpg" />
+    <None Include="wwwroot\Content\assets\img\portfolio\thumbnails\1.jpg" />
+    <None Include="wwwroot\Content\assets\img\portfolio\thumbnails\2.jpg" />
+    <None Include="wwwroot\Content\assets\img\portfolio\thumbnails\3.jpg" />
+    <None Include="wwwroot\Content\assets\img\portfolio\thumbnails\4.jpg" />
+    <None Include="wwwroot\Content\assets\img\portfolio\thumbnails\5.jpg" />
+    <None Include="wwwroot\Content\assets\img\portfolio\thumbnails\6.jpg" />
+    <None Include="wwwroot\Content\css\slick.css" />
+    <None Include="wwwroot\Content\css\style.css" />
+    <None Include="wwwroot\Content\css\styles.css" />
+    <None Include="wwwroot\Content\fonts\77982264.ttf" />
+    <None Include="wwwroot\Content\fonts\Calisto-MT-Bold.ttf" />
+    <None Include="wwwroot\Content\fonts\Calisto-MT-Italic.ttf" />
+    <None Include="wwwroot\Content\fonts\Calisto-MT.ttf" />
+    <None Include="wwwroot\Content\images\about-me-bckg.jpg" />
+    <None Include="wwwroot\Content\images\about-me.jpg" />
+    <None Include="wwwroot\Content\images\blog1.jpg" />
+    <None Include="wwwroot\Content\images\blog2.jpg" />
+    <None Include="wwwroot\Content\images\book-bckg.jpg" />
+    <None Include="wwwroot\Content\images\books-1.jpg" />
+    <None Include="wwwroot\Content\images\books-2.jpg" />
+    <None Include="wwwroot\Content\images\books-3.jpg" />
+    <None Include="wwwroot\Content\images\books-4.jpg" />
+    <None Include="wwwroot\Content\images\counter-1.png" />
+    <None Include="wwwroot\Content\images\counter-2.png" />
+    <None Include="wwwroot\Content\images\counter-3.png" />
+    <None Include="wwwroot\Content\images\counter-4.png" />
+    <None Include="wwwroot\Content\images\double-line.svg" />
+    <None Include="wwwroot\Content\images\download.svg" />
+    <None Include="wwwroot\Content\images\footer-dhl.png" />
+    <None Include="wwwroot\Content\images\footer-fedex.png" />
+    <None Include="wwwroot\Content\images\footer-img.jpg" />
+    <None Include="wwwroot\Content\images\footer-mastercard.png" />
+    <None Include="wwwroot\Content\images\footer-paypal.png" />
+    <None Include="wwwroot\Content\images\footer-visa.png" />
+    <None Include="wwwroot\Content\images\quotes-bckg.jpg" />
+    <None Include="wwwroot\Content\images\quotes.svg" />
+    <None Include="wwwroot\Content\images\site-logo.png" />
+    <None Include="wwwroot\Content\images\social-bckg.jpg" />
+    <None Include="wwwroot\Content\images\social-dribble.png" />
+    <None Include="wwwroot\Content\images\social-pinterest.png" />
+    <None Include="wwwroot\Content\images\social-twitter.png" />
+    <None Include="wwwroot\Content\images\social-youtube.png" />
+    <None Include="wwwroot\Content\images\top-banner-author.jpg" />
+    <None Include="wwwroot\Content\images\top-banner-bckg.jpg" />
+    <None Include="wwwroot\Content\index.html" />
+    <None Include="wwwroot\Content\js\jquery.min.js" />
+    <None Include="wwwroot\Content\js\main.js" />
+    <None Include="wwwroot\Content\js\scripts.js" />
+    <None Include="wwwroot\Content\js\slick.min.js" />
+    <None Include="wwwroot\Content\LICENSE.txt" />
+    <None Include="wwwroot\Content\README.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OfficeHealthTracker.Application\OfficeHealthTracker.Application.csproj" />
+    <ProjectReference Include="..\OfficeHealthTracker.Domain\OfficeHealthTracker.Domain.csproj" />
+    <ProjectReference Include="..\OfficeHealthTracker.Infrastructure\OfficeHealthTracker.Infrastructure.csproj" />
+    <ProjectReference Include="..\OfficeHealthTracker.Interfaces\OfficeHealthTracker.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>

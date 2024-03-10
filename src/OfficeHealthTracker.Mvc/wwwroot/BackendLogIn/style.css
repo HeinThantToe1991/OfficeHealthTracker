@@ -1,0 +1,306 @@
+/*#region*/ /*--thank you pop starts here--*/
+* {
+    padding: 0;
+    margin: 0
+}
+
+    .wrapper {
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff
+    }
+
+    .checkmark__circle {
+        stroke-dasharray: 166;
+        stroke-dashoffset: 166;
+        stroke-width: 2;
+        stroke-miterlimit: 10;
+        stroke: #7ac142;
+        fill: none;
+        animation: stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards
+    }
+
+.checkmark {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    display: block;
+    stroke-width: 2;
+    stroke: #fff;
+    stroke-miterlimit: 10;
+    margin: 10% auto;
+    box-shadow: inset 0px 0px 0px #7ac142;
+    animation: check-fill .4s ease-in-out .4s forwards, scale .3s ease-in-out .9s both
+}
+
+    .checkmark__check {
+        transform-origin: 50% 50%;
+        stroke-dasharray: 48;
+        stroke-dashoffset: 48;
+        animation: stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards
+    }
+
+.exclamation__line {
+    stroke-dasharray: 50;
+    stroke-dashoffset: 50;
+    stroke-width: 2;
+    stroke-miterlimit: 10;
+    stroke: #fff;
+    fill: none;
+    animation: stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards;
+}
+.exclamation__check {
+    transform-origin: 50% 50%;
+    stroke-dasharray: 100;
+    stroke-dashoffset: 100;
+    animation: stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards
+}
+.exclamation {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    display: block;
+    stroke-width: 2;
+    stroke: #fff;
+    stroke-miterlimit: 10;
+    margin: 10% auto;
+    box-shadow: inset 0px 0px 0px #ff0000;
+    animation: exc-fill 0.4s ease-in-out 0.4s forwards, scale 0.3s ease-in-out 0.9s both;
+}
+.info-exclamation {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    display: block;
+    stroke-width: 2;
+    stroke: #fff;
+    stroke-miterlimit: 10;
+    margin: 10% auto;
+    box-shadow: inset 0px 0px 0px #00ff59;
+    animation: info-exc-fill 0.4s ease-in-out 0.4s forwards, scale 0.3s ease-in-out 0.9s both;
+}
+
+    @keyframes stroke {
+        100% {
+        stroke-dashoffset: 0
+    }
+}
+
+@keyframes scale {
+    0%, 100% {
+        transform: none
+    }
+
+    50% {
+        transform: scale3d(1.1, 1.1, 1)
+    }
+}
+
+@keyframes check-fill {
+    100% {
+        box-shadow: inset 0px 0px 0px 30px #7ac142;
+    }
+}
+
+@keyframes exc-fill {
+    100% {
+        box-shadow: inset 0px 0px 0px 30px #ff0000
+    }
+}
+@keyframes info-exc-fill {
+    100% {
+        box-shadow: inset 0px 0px 0px 30px #17a2b8
+    }
+}
+.thank-you-pop {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.thank-you-pop img {
+    width: 76px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 25px;
+}
+
+.thank-you-pop h1 {
+    font-size: 42px;
+    margin-bottom: 25px;
+    color: #5C5C5C;
+}
+
+.thank-you-pop p {
+    font-size: 20px;
+    margin-bottom: 27px;
+    color: #5C5C5C;
+}
+
+.thank-you-pop h3.cupon-pop {
+    font-size: 25px;
+    margin-bottom: 40px;
+    color: #222;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 20px;
+    border: 2px dashed #222;
+    clear: both;
+    font-weight: normal;
+}
+
+.thank-you-pop h3.cupon-pop span {
+    color: #03A9F4;
+}
+
+.thank-you-pop a {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 9px 20px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    background-color: #8BC34A;
+    border-radius: 17px;
+}
+
+.thank-you-pop a i {
+    margin-right: 5px;
+    color: #fff;
+}
+
+/*#endregion *//*--thank you pop ends here--*/
+
+.image-container{
+    background: url('image/bg.jpg') center no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.form-container{
+    background-color: #fccc00;
+    display: flex;
+    justify-content: center;
+}
+
+.form-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.form-box h4{
+    font-weight: bold;
+    color: #fff;
+}
+
+.form-box .form-input{
+    position: relative;
+}
+
+.form-box .form-input input{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    border:none;
+    border-radius: 5px;
+    outline: none;
+    background: white;
+    padding-left: 45px;
+}
+
+.form-box .form-input span{
+    position: absolute;
+    top: 8px;
+    padding-left: 20px;
+    color: #777;
+}
+
+.form-box .form-input input::placeholder{
+    padding-left: 0px;
+}
+
+.form-box .form-input input:focus,
+.form-box .form-input input:valid{
+    border-bottom: 2px solid #48403d;
+}
+
+.form-box input[type="checkbox"]:not(:checked) + label:before{
+    background: transparent;
+    border: 2px solid #fff;
+    width: 15px;
+    height: 15px;
+}
+
+.form-box .custom-checkbox .custom-control-input:checked ~ .custom-control-label::before{
+    background-color: #48403d;
+    border: 0px;
+}
+
+.forget-link, .register-link, .login-link{
+    color: #fff;
+    font-weight: bold;
+}
+
+.forget-link:hover, .register-link:hover, .login-link:hover{
+    color: #292525;
+}
+
+.form-box button[type="submit"] {
+    border: none;
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+    border-right: 5px;
+    background-color: #fffd86;
+    color: #000;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.form-box button[type="submit"]:hover{
+    box-shadow: 0px 9px 10px -2px rgba(0,0,0,0.55);
+    -webkit-box-shadow: 0px 9px 10px -2px rgba(0,0,0,0.55);
+    -moz-box-shadow: 0px 9px 10px -2px rgba(0,0,0,0.55);
+}
+
+.form-box .btn-social{
+    color: #fff;
+    border: 0px;
+    display: inline-block;
+    margin: 0px;
+    margin-right: 10px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.form-box .btn-facebook{
+    background: #4866a8;
+}
+
+.form-box .btn-google{
+    background: #da3f34;
+}
+
+.form-box .btn-twitter{
+    background: #33ccff;
+}
+
+.form-box .btn-facebook:hover{
+    background: #3d5785;
+    color: #fff;
+}
+
+.form-box .btn-google:hover{
+    background: #bf3b31;
+    color: #fff;
+}
+
+.form-box .btn-twitter:hover{
+    background: #2eb7e5;
+    color: #fff;
+}
